@@ -1,29 +1,20 @@
-a = 10
-b = 13
+a=4
+b=5
 
+print(bin(a))       #100
+print(bin(b))       #101
 
-a=b         #Assigns right value to left
-print(a)    #a=13
+print(bin(a&b))     #100 AND operator if 1 then 1
 
-a=10         #Re-assigning
-print(a)     #a=10
+print(bin(a|b))     #101 OR operrator if any is 1 output is 1
 
-a+=b        #a+b
-print(a)    #a=23
+print(bin(a^b))     #1 XOR operatoor if both different then 1
 
-a-=b        #a-b here a=23
-print(a)    #a=10
+print(bin(~a))      #-101 Negation operator
 
-a*=b        #a*b here a=10
-print(a)    #a=130
+print(bin(~b))      #-110 Negation operator
 
-a%=b        #130 divide ny 10 remainder 0
-print(a)    #a=0
+print(bin(a<<b))    #10000000 a moved left by number of bits present in b operand
 
-a=2  #Re-assigning
+print(bin(a>>b))    #0 a moved right by number of bits present in b operand
 
-a**=b       #2 raised to 13
-print(a)    #a=8192
-
-a//=b       #8192 divide by 13
-print(a)    #a=630
