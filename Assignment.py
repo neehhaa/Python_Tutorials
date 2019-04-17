@@ -1,6 +1,4 @@
-a=10
-b="python"
-c=1.2
+a=b=c=10
 print(a)
 print(b)
 print(c)
