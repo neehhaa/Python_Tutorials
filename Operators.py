@@ -1,16 +1,16 @@
 a=10
 b=9
 
-print(a+b)
+print(a+b)    #Addition
 
-print(a-b)
+print(a-b)    #Subtraction
 
-print(a*b)
+print(a*b)    #Multiplication
 
-print(a/b)
+print(a/b)    #Division
 
-print(a%b)
+print(a%b)    #Remainder
 
-print(a**b)
+print(a**b)   #Exponent
 
-print(a//b)
+print(a//b)   #Floor Division 
