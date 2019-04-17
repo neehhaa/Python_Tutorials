@@ -1,17 +1,29 @@
-a,b,c=3,5,3
+a = 10
+b = 13
 
-print(a==b)     #False
 
-print(a==c)     #True
+a=b         #Assigns right value to left
+print(a)    #a=13
 
-print(a!=b)     #True
+a=10         #Re-assigning
+print(a)     #a=10
 
-print(a>=b)     #False
+a+=b        #a+b
+print(a)    #a=23
 
-print(a<=b)     #True
+a-=b        #a-b here a=23
+print(a)    #a=10
 
-print(a>b)      #False
+a*=b        #a*b here a=10
+print(a)    #a=130
 
-print(a<b)      #True
+a%=b        #130 divide ny 10 remainder 0
+print(a)    #a=0
 
-print(a>b>c)    #False
+a=2  #Re-assigning
+
+a**=b       #2 raised to 13
+print(a)    #a=8192
+
+a//=b       #8192 divide by 13
+print(a)    #a=630
