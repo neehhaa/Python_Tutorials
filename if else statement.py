@@ -1,5 +1,5 @@
-age = int(input("Enter the age :   "))
-if age>=18:
-    print("The candidate can vote!!!")
+a = int(input("Enter a number :  "))
+if a%2==0:
+    print(a,"is even!!!")
 else:
-    print("The candidate is not eligible!!!")
+    print(a,"is odd!!!")
