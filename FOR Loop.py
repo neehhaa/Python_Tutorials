@@ -1,4 +1,6 @@
-i=1
-n =int(input("Enter a number : "))
-for i in range(1,11):
-    print("%d X %d = %d"%(n,i,n*i))
+n = int(input("Enter a number of rows : "))
+i,j=0,0
+for i in range(0,n):
+    print()
+    for j in range(0,i+1):
+        print("*",end=' ')
