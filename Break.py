@@ -1,5 +1,7 @@
-s = "python"
-for i in s:
-    if i == "o":
+i=0;
+while(1):
+    print(i," ",end=" ")
+    i=i+1;
+    if (i==10):
         break
-    print(i)
+print("Here the loop exhausted")
